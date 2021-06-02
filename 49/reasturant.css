@@ -1,0 +1,21 @@
+img{
+    width:30px;
+    height:30px;
+}
+body{
+    text-align:center;
+    color:khaki
+     
+}
+p{  border-radius:50%;
+    font-style:italic;
+    font-weight:bold;
+    background-color: rgb(139, 74, 0);
+   
+}
+header{
+    border-radius: 56px;
+ border-style: dotted;
+  
+    border-color: darksalmon;
+}
