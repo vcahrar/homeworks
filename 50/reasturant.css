@@ -1,0 +1,106 @@
+img{
+    width:25%;
+    height:20%;
+}
+body{
+    text-align:center;
+    color:khaki;
+    text-shadow:darkslategrey;
+    width:200%;
+    height:300%
+}
+p{  border-radius:50%;
+    font-style:italic;
+    font-weight:bold;
+    background-color: rgb(139, 74, 0);
+   
+}
+#copyright.menuItem header{
+color:red
+}
+header{
+    border-radius: 56px;
+ border-style: dotted;
+  
+    border-color: darksalmon;
+}
+ {color:red }
+html {
+  background-color: white
+}
+
+body {
+  background-color: black;
+  color: white;
+  /*width: 800px;*/
+  /*max-width: 800px;*/
+  width: 80%;
+  margin: auto;
+
+  /*padding: 1em 2em;*/ /*tb rl*/
+  /*padding: 1em 2em 3em;*/ /*t rl b*/
+  /*padding: 1em 2em 3em 4em;*/
+  /*padding-top padding-right etc..*/
+  padding: 2em; /*all sides*/
+}
+
+header {letter-spacing: 0rem;
+  text-align: center;
+  border-bottom: 1px inset gray;
+  padding-bottom: 1em;
+}
+
+header h1 {
+  font-style: italic;
+  color: green;
+  /*border: 1px solid black;*/
+  border-width: 2px;
+  border-style: dashed;
+  border-color: red;
+  border-bottom-width: 4px;
+  border-radius: 8px;
+}
+
+header img {
+  width: 300px;
+}
+
+/*p,*/
+h1 {
+  color: red;
+  /*color: green;*/
+  /*text-align: justify;*/
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: capitalize;
+  
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:focus {
+  color: yellow;
+}
+
+a:hover {
+  color: fuchsia;
+}
+
+a:active {
+  color: greenyellow;
+}
+
+#copyright {font-style:red;
+}
+UL{
+  Text-align:left} 
