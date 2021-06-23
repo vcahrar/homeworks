@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html {
+      background-color: black;
+    }
+
+    body {
+      background-color: white;
+      max-width: 990px;
+      margin: auto;
+    }
+
+    .box {
+      background-color: yellow;
+      border: 1px solid black;
+      width: 300px;
+      height: 6em;
+      text-align: center;
+      margin: 15px;
+      /*padding-top: 2.5em;
+      padding-bottom: 2.5em;*/
+      box-sizing: border-box;
+      line-height: 6em;
+
+      /*float: left;*/
+      display: inline-block;
+    }
+
+  .clearFix {
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">Some text</div><!--
+  --><div class="box">Some text</div><!--
+  --><div class="box">Some text</div><!--
+  --><div class="box">Some text</div><!--
+  --><div class="box">Some text</div><!--
+  --><div class="box">Some text</div><!--
+  --><div class="box">Some text</div><!--
+  --><div class="box">Some text</div>
+  <p class="clearFix">Yes</p>
+</body>
+</html>
