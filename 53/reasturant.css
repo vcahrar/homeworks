@@ -1,0 +1,166 @@
+img{
+    width:relative;
+    height:relative;
+}
+/*body{
+    text-align:center;
+    color:khaki;
+    text-shadow:darkslategrey;
+
+}*/
+p{  border-radius:50%;
+    font-style:italic;
+    font-weight:bold;
+    background-color: rgb(139, 74, 0);
+   
+}
+#copyright.menuItem header{
+color:red
+}
+header{
+    border-radius: 56px;
+ border-style: dotted;
+  
+    border-color: darksalmon;
+}
+
+html {
+  background-color: white
+}
+body {
+  background-color:white;
+}
+
+@media screen and (min-width: 65%) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+
+  
+  
+
+  /*padding: 1em 2em;*/ /*tb rl*/
+  /*padding: 1em 2em 3em;*/ /*t rl b*/
+  /*padding: 1em 2em 3em 4em;*/
+  /*padding-top padding-right etc..*/
+ } /*all sides*/
+
+
+header {letter-spacing: 0rem;
+  text-align: center;
+  border-bottom: 1px inset gray;
+  padding-bottom: 1em;
+}
+
+header h1 {
+  font-style: italic;
+  color: green;
+  /*border: 1px solid black;*/
+  border-width: 2px;
+  border-style: dashed;
+  border-color: red;
+  border-bottom-width: 4px;
+  border-radius: 8px;
+}
+img {
+  width:50%;
+  height:40%;
+}
+
+/*p,*/
+h1 {
+  color: red;
+  /*color: green;*/
+  /*text-align: justify;*/
+}
+
+a {
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:focus {
+  color: yellow;
+}
+
+a:hover {
+  color: fuchsia;
+}
+
+a:active {
+  color: greenyellow;
+}
+
+#copyright {font-style:red;
+};
+  
+UL{
+  Text-align:left} 
+p{font-family: sans-serif;}
+*
+a:hover{font-weight:bold;
+color:blue}
+.scale{
+  /*position:fixed;
+ /*margin-left: 0%;*/
+  margin-right:2em;
+
+}
+/*
+img:hover{
+  Height:40%;
+  Width:60%;
+}
+img:scale{
+      color:pink;
+  }*/
+  table {
+    /*border: 1px solid black;*/
+    border-collapse: collapse;
+  }
+
+  td, th {
+    /*border-top: 1px solid black;
+    border-bottom: 1px solid black;*/
+    border: 1px solid black;
+    padding: .5em 1em;
+  }
+
+  td {
+    text-align: right;
+  }
+
+  tfoot td {
+    color: red;
+  }
+
+  caption {
+    font-weight: bold;
+    font-style: italic;
+    caption-side: bottom;
+  }
+
+  tbody tr:hover {
+    background-color: lightskyblue !important;
+  }
+
+  /*.even {*/
+    /* 2 * 0, 2 * 1, 2 * 2, 2 * 3, etc.. */
+  /*tbody tr:nth-child(2n) {*/
+  /*  tbody tr:nth-child(odd) {*/
+  tbody tr:nth-child(2n+1) {
+    background-color: lightcyan;
+  }

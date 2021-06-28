@@ -1,0 +1,72 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    article {
+      border: 2px solid red;
+      /*overflow: auto;*/
+    }
+
+    section {
+      border: 2px solid yellow;
+
+      float: left;
+    }
+
+    article::before {
+      content: 'foo';
+    }
+
+    article::after {
+      content: '';
+      display: block;
+      clear: left
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Flexbox</h1>
+  </header>
+  <article>
+    <section>
+      <h1>1</h1>
+      <div>Im a flex item</div>
+    </section>
+    <section>
+      <h1>2</h1>
+      <div>Im a flex item</div>
+    </section>
+    <section>
+      <h1>3</h1>
+      <div>Im a flex item</div>
+    </section>
+    <section>
+      <h1>4</h1>
+      <div>Im a flex item</div>
+    </section>
+    <section>
+      <h1>5</h1>
+      <div>Im a flex item</div>
+    </section>
+    <section>
+      <h1>6</h1>
+      <div>Im a flex item</div>
+    </section>
+    <section>
+      <h1>7</h1>
+      <div>Im a flex item</div>
+    </section>
+    <section>
+      <h1>8</h1>
+      <div>Im a flex item</div>
+    </section>
+    <p>Some text</p>
+  </article>
+</body>
+</html>
